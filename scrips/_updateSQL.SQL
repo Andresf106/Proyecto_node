@@ -1,0 +1,22 @@
+
+-- crear tabla de producto
+CREATE TABLE producto(
+     id_producto serial,
+         nombre varchar(4000),
+         detalle varchar(4000),
+         valor numeric,
+         img varchar(4000),
+         CONSTRAINT pk_id_producto primary key (id_producto)
+     );
+
+
+
+-- crear tabla de usuario
+ CREATE TABLE USUARIO (
+     ID SERIAL,
+     USERNAME VARCHAR(200),
+     PASSWORD VARCHAR(200),
+     CONSTRAINT PK_USUARIO PRIMARY KEY (ID, USERNAME)
+     )
+
+
